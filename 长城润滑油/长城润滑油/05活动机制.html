@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/red/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/05.css"/>
+	</head>
+	<body>
+		<div class="my_div_1">
+			<ul class="my_ul">
+				<li><a href="#"><span>Hi,ROOT001</span></a></li>
+				<li>目前积分：<span>7864</span></li>
+				<li><a href="#">退出</a></li>
+				<li><a href="#"><span>修改密码</span></a></li>
+				<li><a href="#"><span>返回活动选择页</span></a></li>
+			</ul>
+		</div>
+		<header class="my_header">
+			<div >
+				<img src="images/serveDh.png"/>
+				<form class="my_form" action="javascript:;" method="post">
+					<input class="my_input" type="text"  placeholder="请输入关键字"/>
+					<input type="button" value="搜索"/>
+						<p>				
+				热搜关键词：
+				<a href="">金吉星</a>
+				<a href="">机油</a>
+				<a href="">工作手套</a>
+				<a href="">POLO衫</a>
+						</p>
+				</form>
+			</div>
+		</header>
+		<div class="my_body">
+			<div class="my_div_6" >
+				<p class="my_p"  >城频道分类</p>
+			<div class="my_div_3">
+				<ul>
+					<li><a  href="javascript:0"><img src="images/indMenuBg.png"/>首页</a></li>
+					<li><a    href="javascript:0">活动机制</a></li>
+					<li><a   href="javascript:0">下单流程</a></li>
+					<li><a  href="javascript:0">质保机制</a></li>
+					<li><a  href="javascript:0">服务中心</a></li>
+					<li><a  href="javascript:0">订单中心</a></li>
+				</ul>
+			</div>
+				<div class="my_div_2" >
+				<ul>
+					<li><img src="images/frequeL3.png"/><a href="#">家居生活 ></a></li>
+					<li><img src="images/frequeL2.png"/><a href="#">汽车养护></a> </li>
+					<li><img src="images/frequeL4.png"/><a href="#">我要服务 ></a></li>
+				</ul>
+				<p><img src="images/doubleR.png"/><a href="#">分公司查询登陆</a></p>
+			</div>
+			</div>
+		</div>
+		<div>
+			<div class="my_div_4" >
+			<p class="sdaf">您当前的位置：<a href="#">首页</a> >购物车</p>
+			<img class="my_img" src="images/conBanner.png"/>
+			
+			<div class="my_div_12">
+				<p>活动机制</p>
+				<p>下单流程</p>
+				<p>质保机制</p>
+				<p>帮助中心</p>
+			</div>
+			<div class="my_div_11">
+				<img style="display: block;" src="images/huodongJizhi.jpg">
+               <img src="images/xiadanLiuc.jpg">
+                <img src="images/zhibaoJizhi.jpg">
+                <img src="images/fuwuZhongxin.jpg">
+			</div>
+			</div>
+		</div>
+		<p class="dkhkd"><img src="images/foorterImg.jpg" /></p>
+		<footer style="clear: both;">
+			<ul>
+				<li>订单帮助</li>
+				<li>礼品售后</li>
+				<li>投诉说明</li>
+				<li>法律声明</li>
+				<li>友情链接</li>
+			</ul>
+			<p>版权所有 沪ICP备12038387号</p>
+		</footer>
+		
+		
+		<img id="gun" src="images/result-top-btn.png" />
+	</body>
+</html>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+			//返回顶部JS
+	var $backToTopTxt = "", $backToTopEle = $('#gun').appendTo($("body"))
+		.text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
+			$("html, body").animate({ scrollTop: 0 }, 120);
+	}), $backToTopFun = function() {
+		var st = $(document).scrollTop(), winh = $(window).height();
+		(st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+		//IE6下的定位
+		if (!window.XMLHttpRequest) {
+			$backToTopEle.css("top", st + winh - 166);
+		}
+	};
+	$(window).bind("scroll", $backToTopFun);
+	$(function() { $backToTopFun(); });
+//		a.siblings()
+	//点击切换
+	var oLi = $(".my_div_12 p");
+	var oUl = $(".my_div_11 img");
+	for(var i = 0; i < oLi.length; i++){
+		oLi[i].index = i;
+		oLi[i].onclick = function (){
+				$(this).css("background","url(images/procMecha_lulclk.jpg) 0 0").siblings().css("background","url(images/procMecha_lul.jpg) 0 0");
+			for(var n = 0; n < oUl.length; n++){
+			oUl[n].style.display = "none";
+			oUl[this.index].style.display = "block"
+		}	
+	}
+}
+
+	})
+</script>

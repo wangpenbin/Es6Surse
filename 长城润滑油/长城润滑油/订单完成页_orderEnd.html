@@ -1,0 +1,176 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>订单完成页</title>
+<!--<link type="text/css" href="css/red/cart.css" rel="stylesheet">
+<link type="text/css" href="css/red/header.css" rel="stylesheet">-->
+<link type="text/css" href="css/blue/cart.css" rel="stylesheet">
+<link type="text/css" href="css/blue/header.css" rel="stylesheet">
+<link type="text/css" href="css/blue/footer.css" rel="stylesheet">
+<link type="text/css" href="css/blue/base.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/ccico.ico" type="image/x-icon"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/show.js"></script>
+<script src="js/base.js"></script>
+<script src="js/backbg.js"></script>
+<script src="js/search.js"></script>
+</head>
+<body>
+    <div class="header w100">
+        <div class="headerTop">
+            <ul class="headerTop_ul clearfix w1200 margin_auto color666 font_st">
+                <li><a class="color0066CC" href="#">Hi,ROOT001</a></li>
+                <li>目前积分：<span class="color0066CC">7864</span></li>
+                <li><a href="#">退出</a></li>
+                <li><a href="#">修改密码</a></li>
+                <li><a class="color0066CC" href="#">返回活动选择页</a></li>
+            </ul>
+        </div>
+        <!-- headerTop end -->
+        <div class="headerBou w1200 margin_auto clearfix">
+            <div class="serveDh fl mt25">
+                <img src="images/serveDh.png" width="381" height="71">
+            </div>
+            <div class="searchDiv fr mt40">
+                <form class="searchDiv_form">
+                    <input class="searchDiv_form_L fl bor_none background_Transparent color999 font_fam" type="text" value="输入关键字">
+                    <input class="searchDiv_form_R fr bor_none curaor_pointer background_Transparent" title="搜索" type="submit" value="">
+                </form>
+                <ul class="searchDiv_ul">
+                    <li>热搜关键词：</li>
+                    <li><a href="#">金吉星</a></li>
+                    <li><a href="#">机油</a></li>
+                    <li><a href="#">工作手套</a></li>
+                    <li><a href="#">POLO衫</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- headerBou end -->
+        <div class="headerMenu mt20">
+            <div class="w1200 margin_auto pr">
+                <div class="pingDao pa">
+                    <p class="frequeLfis"><img class="fl ml40 mt10 mr10" src="images/frequeL1.png" width="29" height="21"><a class="colorfff f16 font_fam" href="#">城频道分类</a></p>
+                    <ul class="channelMall pa f16 dis_none">
+                        <li><img src="images/frequeL3.png"><a href="#">家居生活</a><span class="ml10 colorfff">&gt;</span></li>
+                        <li><img src="images/frequeL2.png"><a href="#">汽车养护</a><span class="ml10 colorfff">&gt;</span></li>
+                        <li><img src="images/frequeL4.png"><a href="#">我要服务</a><span class="ml10 colorfff">&gt;</span></li>
+                        <div class="double pa tc">
+                            <img src="images/doubleR.png" width="31" height="38">
+                            <a class="colorfff f16 font_fam fb ml5" href="#">分公司查询登陆</a>
+                        </div>
+                    </ul>
+                </div>
+                <!-- end -->
+                <ul class="headerMenu_ul clearfix f16 font_fam">
+                    <li class="headerMenu_Fis"><a href="#"><img class="fl" src="images/indMenuBg.png">首页</a></li>
+                    <li><a href="#">活动机制</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">质保机制</a></li>
+                    <li><a href="#">服务中心</a></li>
+                    <li><a href="#">订单中心</a></li>                                                                      
+                </ul>
+            </div>     
+        </div>
+        <!-- headerMenu end -->
+    </div>
+    <!-- header end -->
+    
+	<div class="w1200 margin_auto mt15">
+    	<ul class="navCrumbs_ul pl15 f16 font_fam color666 clearfix">
+            <li>您当前的位置：</li>
+            <li><a href="#">首页</a></li>
+            <li>></li>
+            <li>订单完成页</li>
+        </ul>
+        <div class="mt15"><a href="#"><img src="images/conBanner.png" width="1200" height="300"></a></div>
+        <div class="ordeSuccess mt10 tc">
+            <p class="f18 font_fam lineH160 mt15 pb15"><span class="chengGoImg pr dis_inlin_biock"></span>您好，订单已提交成功，您的订单编号为2356412599。<br>感谢您对我们的支持，客服人员会在24小时内联系您，并与您确认订单等信息。<br>发货后：“订单中心”会根据配送信息，输入物流单号或物流电话，<br>您可根据实际情况进行查询，或致电客服40-6396-566。</p>
+        </div>
+        <!-- 提交成功 end -->
+        <div class="ordeSuccess mt10 tc dis_none">
+            <p class="f18 font_fam lineH160 mt15 pb15"><span class="shiBaiImg pr dis_inlin_biock"></span>您好,您的订单提交失败。<br>失败原因：积分不足。您可根据实际情况进行查询<br>或致电客服 40-6396-566</p>
+        </div>
+        <!-- 提交失败 end -->
+        <h3 class="goods_tistH3 mt5 clearfix"><span class="f16 font_fam tc fl colorfff">订单信息</span></h3>
+        <div class="borHecon mt10 pb20">
+            <div class="ation_tset pl15 pb10">
+                <h4 class="shPeopleh4 font_st fb f14 mt10">收货人信息</h4>
+                <p class="f14 lineH180 font_st mt5">收货人姓名：李某某</p>
+                <p class="f14 lineH180 font_st">电子邮箱：limoumou@163.com</p>
+                <p class="f14 lineH180 font_st">收货地址：上海市闸北区某某路100弄100号</p>
+                <p class="f14 lineH180 font_st">邮政编码：200070</p>
+                <p class="f14 lineH180 font_st">手   机 ：18621657521</p>
+                <p class="f14 lineH180 font_st">固定电话：021-56214566</p>
+                <p class="f14 lineH180 font_st">备注信息：双休日请勿配送哦~</p>
+            </div>
+            <div class="ation_tset pl15 pb10">
+                <h4 class="shPeopleh4 font_st fb f14 mt10">支付及配送方式</h4>
+                <p class="f14 lineH180 font_st mt5">支付方式：积分支付</p>
+                <p class="f14 lineH180 font_st">运费：0.00积分</p>
+                <p class="f14 lineH180 font_st">送货方式：普通汽运</p>
+            </div>
+            <div class="ation_tset pl15 pb10">
+                <h4 class="shPeopleh4 font_st fb f14 mt10">发票信息</h4>
+                <p class="f14 lineH180 font_st mt5">发票类型：普通发票</p>
+                <p class="f14 lineH180 font_st">发票抬头：单位</p>
+                <p class="f14 lineH180 font_st">发票内容：三星Galaxy MegaI9152 3G手机 双卡双待*1 黑色，三星Galaxy MegaI9152 3G手机 双卡双待*1白色</p>
+            </div>
+            <div class="ation_tset pl15 pb10">
+                <h4 class="shPeopleh4 font_st fb f14 mt10">商品清单</h4>
+            </div>
+            <table class="cartTable">
+                <tr>
+                    <th class="cartTable_AS_a f16 font_fam tc colorfff">商品货号</th>
+                    <th class="cartTable_BS_b f16 font_fam tc colorfff">品牌名称</th>
+                    <th class="cartTable_CS_c f16 font_fam tc colorfff">购买价</th>
+                    <th class="cartTable_DS_d f16 font_fam tc colorfff">商品数量</th>
+                    <th class="cartTable_ES_e f16 font_fam tc colorfff">规则备注</th>
+                </tr>
+                <tr>
+                    <td class="pt15 pb15 clearfix pl25"><span class="tc f14 font_fam">PT21201502260002</span></td>
+                    <td class="clearfix"><span class="spMiaoSU f14 font_fam tc dis_biock txh">三星Galaxy MegaI9152 3G手机 双卡双待三星Galaxy MegaI9152 3G手机 双卡双待三星Galaxy MegaI9152 3G手机 双卡双待</span></td>
+                    <td class="f14 font_fam tc">1299.00积分</td>
+                    <td class="tc f14 font_fam"><span>1</span></td>
+                    <td class="f14 font_fam tc">5L白色</td>
+                </tr>
+                <tr>
+                    <td class="pt15 pb15 clearfix pl25"><span class="tc f14 font_fam">PT21201502260002</span></td>
+                    <td class="clearfix"><span class="spMiaoSU f14 font_fam tc dis_biock txh">三星Galaxy MegaI9152 3G手机 双卡双待</span></td>
+                    <td class="f14 font_fam tc">1299.00积分</td>
+                    <td class="tc f14 font_fam"><span>1</span></td>
+                    <td class="f14 font_fam tc">5L白色</td>
+                </tr>
+			</table>
+            <div class="orderPayment mt10 clearfix pb50">
+                <div class="fr tc">
+                    <div class="orderPayment_t lineH200 pt35 pb5">
+                        <p class="font_fam f16">商品总额：2598.00积分</p>
+                        <p class="font_fam f16"> +运费：0.00积分</p>
+                    </div>
+                    <p class="cc_dingdanP font_fam f16 mt5 fb">订单支付：<span class="color0066CC">2598.00</span> 积分</p>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <!-- borHecon end -->
+    </div>
+    <!-- 内容结构 end -->
+    
+    <div class="footer w100 clear">
+    	<div class="w1200 margin_auto tc mt30"><img src="images/foorterImg.jpg" width="850" height="135"></div>
+        <div class="footerBou mt30 tc">
+        	<ul class="footerBou_ul clearfix pt35 w1200 margin_auto font_fam">
+            	<li><a href="#">订单帮助</a></li>
+                <li><a href="#">礼品售后</a></li>
+                <li><a href="#">投诉说明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li style="border:0 none;"><a href="#">友情链接</a></li>                                                                                      
+            </ul>
+            <p class="colorfff pt25">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+        </div>
+    </div>
+    <!-- footer end -->    
+</body>
+</html>

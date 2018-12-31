@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*导航CSS*/
+.headerTop{ height:36px; line-height:36px; border-bottom:solid 1px #DFDFDF;}
+.headerTop_ul li{ float:left; background:url(../../images/headerTop_ulli.png) no-repeat top right; padding:0 15px;}
+.color0066CC{ color:#E10012;}
+.searchDiv{ width:298px;}
+.searchDiv_form{ width:298px; height:32px; background:url(../../images/searchDiv_form.png) no-repeat top right;}
+.searchDiv_form_L{ width:202px; height:28px; line-height:28px; margin-top:2px; margin-left:40px;}
+.searchDiv_form_R{ width:55px; height:32px;}
+.searchDiv_ul{ margin-top:7px;}
+.searchDiv_ul li{ float:left; padding-right:14px; color:#666;}
+.searchDiv_ul li a{ color:#666;}
+.searchDiv_ul li a:hover{ color:#0066CC;}
+.headerMenu{ height:40px; line-height:40px; background-color:#060608;}
+.headerMenu_ul{ margin-left:280px;}
+.headerMenu_ul li{ float:left; background:url(../../images/redImages/headerMenu_ulli.png) no-repeat top right; padding:0 32px;}
+.headerMenu li a{ float:left; color:#fff;}
+.headerMenu_Fis img{ margin:12px 10px 0 0;}
+/*购物车样式*/
+.ccNavigation_div{ background:url(../../images/ccNavigation_div.png) no-repeat left center; padding-left:45px; right:0px; top:2px; height:40px;}
+.ccNavigation_div a{ color:#FCD000;}
+
+
+
+/*商城频道*/
+.pingDao{ width:236px;}
+.frequeLfis{ width:236px; height:40ox;}
+.channelMall{ width:236px; height:457px; background-color:#E70012; top:40px; left:0; z-index:10;}
+.channelMall li{ height:55px; line-height:55px; border-top:solid 1px #EC404C; margin-left:15px; margin-right:5px;}
+.channelMall li img{ float:left; margin:17px 10px 0 22px;}
+.channelMall li.frequeLfis img{ margin-top:10px;}
+.channelMall li a{ float:left; color:#fff; font-family:"微软雅黑";}
+.double{ width:253px; height:53px; line-height:53px; background-color:#D90919; left:-10px; top:330px; z-index:11;}
+/*商城频道 end*/
+
+

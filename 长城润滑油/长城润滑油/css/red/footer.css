@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*页脚CSS*/
+.footerBou{ height:123px; background-color:#999;}
+.footerBou_ul li{ display:inline-block; font-size:15px; width:135px; border-right:2px #fff solid;}
+.footerBou_ul li a{ color:#fff;}
+
+/*返回顶部*/
+.backToTop{ display:none; background:url(../../images/result-top-btn.png) no-repeat; width:70px; height:65px; position:fixed; right:50px; bottom:180px; cursor:pointer;}
+/*返回顶部 end*/
+
+

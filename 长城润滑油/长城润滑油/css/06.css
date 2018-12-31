@@ -1,0 +1,386 @@
+a,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.my_header {
+	width: 1200px;
+	margin: 0 auto;
+	height: 96px;
+}
+
+.my_div_1 {
+	width: 100%;
+	height: 40px;
+	border: 2px solid #CCCCCC;
+	overflow: hidden;
+}
+
+.my_ul {
+	width: 1200px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+
+.my_ul li {
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	padding-right: 15px;
+	border-right: 3px solid #CCCCCC;
+}
+
+.my_ul span {
+	color: #0056A9;
+	font-weight: 400;
+}
+
+.my_ul li:last-child {
+	border-right: none;
+}
+
+.my_header {
+	padding-top: 25px;
+}
+
+.my_header div img {
+	float: left;
+}
+
+.my_header div .my_form {
+	float: right;
+	width: 298px;
+	height: 32px;
+	background: url(../images/searchDiv_form.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	margin-top: 10px;
+}
+
+.my_header div .my_form input:first-child {
+	height: 22px;
+	width: 202px;
+	margin-left: 40px;
+	margin-top: 5px;
+	border: none;
+}
+
+.my_header div .my_form input:nth-child(2) {
+	width: 50px;
+	height: 30px;
+	float: right;
+	margin-right: 2px;
+	background: #0056A9;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.my_header p {
+	clear: both;
+	margin-top: 7px;
+}
+
+.my_body {
+	width: 100%;
+	height: 40px;
+	background: #005BAC;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.my_body .my_p {
+	margin-left: 50px;
+	width: 236px;
+	line-height: 40px;
+	padding-left: 40px;
+	background: url(../images/frequeL1.png) no-repeat 0 10px;
+	float: left;
+}
+
+
+.my_div_3 ul li {
+	float: left;
+	width: 91px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 30px;
+}
+
+.my_div_3 ul li:first-child {
+	padding-left: 30px;
+}
+
+.my_div_3 ul li a {
+	color: #FFFFFF;
+}
+
+.my_div_2 {
+	width: 200px;
+	height: 458px;
+	clear: both;
+	text-align:left;
+	background: #0056A9;
+	color: #FFFFFF;
+	line-height: 60px;
+	position: relative;
+	left: 0px;
+	display: none;
+	padding-left: 20px;
+}
+
+.my_div_2 li {
+	background-size: 100% 100%;
+	border-top: 1px solid #FFFFFF;
+	padding-left: 30px;
+}
+
+.my_div_2 p {
+	width: 235px;
+	position: relative;
+	background: #005FAF;
+	left: -25px;
+	top: 100px;
+	text-align: center;
+}
+.my_div_2 img{
+	padding-right: 20px;
+}
+.my_div_2 a{
+	color: #FFFFFF;
+}
+.my_div_4{
+	width: 1200px;
+	margin: 33px auto;
+}
+.my_div_4 .sdaf{
+	margin-top: 25px;
+	font-size: 16px;
+}
+.img{
+	float: left;
+	 width: 500px;
+	 margin-top: 20px;
+}
+.img .img_9{
+	width: 436px;
+	height: 436px;
+	border: 1px solid #CCCCCC;
+}
+.img .img_2{
+	width: 436px;
+	height: 436px;
+	cursor:zoom-in;
+	float: left;
+	
+}
+.xianshi{
+	width: 600px;
+	height: auto;
+	float: left;
+}
+.nav_1 ul{
+	clear: both;
+}
+.nav_1 ul .li{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.nav_1 li img{
+	width: 61px;
+	height: 61px;
+	float: left;
+	margin-right: 17px;
+	margin-left: 10px;
+}
+.xianshi .xiaozi{
+	font-size: 24px;
+	margin-bottom:20px ;
+	margin-top: 20px;
+}
+.xianshi .dazi{
+	width: 510px;
+	height: 115px;
+	font-size: 36px;
+	background: #0056A9;
+	color: #FFFFFF;
+	text-align: center;
+	line-height:115px ;
+	margin-bottom: 30px;
+}
+.xianshi .dazi span{
+	font-size: 52px;
+} 
+.nav_2 dl{
+	overflow: hidden;
+	margin-top: 15px;
+}
+.nav_2 dt{
+	font-size: 18px;
+	color: #666;
+	float: left;
+	padding-right: 80px;
+}
+.nav_2 dd li{
+	float: left;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.cyip li{
+	border:solid 1px #C1B9B9;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.nav_2 dd:last-child input{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+}
+.nav_2  dd:last-child div span{
+	display: block;
+	height: 15px;
+	margin-bottom: 3px;
+	margin-left: -7px;
+	width: 25px;
+	cursor: pointer;
+}
+.nav_2  dd:last-child div span:first-child{
+	background: url(../images/cartNumberinp.jpg);
+}
+.nav_2  dd:last-child div span:last-child{
+	background: url(../images/cartNumberinp.jpg) bottom;
+}
+.nav_2 dd:last-child .zixi{
+	margin-top: 3px;
+	font-size: 18px;
+}
+.zhongbu{
+	clear: both;
+	width: 1200px;
+	margin: 0 auto;
+}
+.zhongbu .left{
+	float: left;
+	width: 20%;
+}
+.zhongbu .right{
+	float: right;
+	width: 77%;
+}
+.left p{
+	font-size:16px ;
+}
+.left p:first-child{
+	width: 250px;
+	height: 38px;
+	background: #005BAA;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight:400 ;
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: 20px;
+}
+.left img{
+	width: 246px;
+	height: 246px;
+}
+.left span{
+	color: #0066CC;
+}
+.left del{
+	color:#888;
+}
+.right .dsuy{
+	border-bottom: 4px solid #005BAA;
+	overflow: hidden;
+	margin-bottom: 10px;
+	
+}
+.right span{
+	display: block;
+	width: 110px;
+	height: 33px;
+	background: #93BCE0;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	line-height: 33px;
+	color: #FFFFFF;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.right span:first-child{
+	background: #005BAA;
+}
+.xuaxiank{
+	/*height: 2500px;*/
+}
+
+.xuaxiank div{
+	text-align: center;
+	display: none;
+}
+.xcc{
+	display: block;
+}
+.dkhkd{
+	width: 100%;
+	text-align: center;
+}
+.nav_2 .deng dd{
+	float: left;
+	padding-right: 40px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.nav_2 .deng dd:first-child{
+	width: 133px;
+	height: 51px;
+	background: url(../images/redImages/shopGmcar.png) left no-repeat;
+}
+.nav_2 .deng dd:last-child{
+	width: 183px;
+	height: 51px;
+	background: url(../images/redImages/shopGmcar.png) right;
+}
+footer{width: 100%;height: 126px;background: #CDCDCD;margin-top:33px;}
+footer ul{
+	width: 800px;
+	height: auto;
+	margin:  0 auto;
+	text-align: center;
+	padding-top: 35px;
+}
+footer ul li{
+	float: left;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	width: 137px;
+	font-size: 16px;
+}
+footer p{
+	text-align: center;
+	padding-top: 50px;
+	color: #FFFFFF;
+}
+#gun{
+	position:  fixed;
+	top:70%;
+	left: 90%;
+	cursor: pointer;
+	
+}
+.cyip .ti{
+	border: 3px solid red;
+	background: url(../images/tb-selected-b.gif) no-repeat;
+	background-position:right bottom;
+	
+}
+
+
+
+
+

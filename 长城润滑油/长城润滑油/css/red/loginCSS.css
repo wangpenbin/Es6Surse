@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*登录页CSS*/
+.cG_loh2{ margin-left:60px; width:380px; height:40px; background:url(../../images/gateLogo.png) no-repeat;}
+.cG_loh3{ margin-left:75px; color:#e60012;}
+.loginBou{ background-color:#A40007; height:537px;}
+.loginBou_con{ background:url(../../images/loginBg.png) no-repeat; width:1200px; height:537px;}
+.loginKuang{ width:354px; height:425px;}
+.cG_loh4{ text-decoration:underline;}
+.loginNum,.loginPass{ width:284px; height:40px;}
+.loginNum{ background:url(../../images/loginNum.png) no-repeat;}
+.loginPass{ background:url(../../images/loginPass.png) no-repeat;}
+.loginNum input,.loginPass input{ width:233px; height:38px; line-height:38px; margin-top:1px;}
+.loginNum p,.loginPass p{ top:43px; left:50px; color:#F00;}
+.ckBox_iup{ margin-top:2px;}
+.lossTx{ width:285px; height:28px; background:url(../../images/lossTx.png) no-repeat;}
+.loginAniu input{ width:288px; height:55px; background:url(../../images/loginAniu.png) no-repeat;}
+
+/*登录页选择页CSS*/
+.loginChoice_con{ min-height:537px; background:url(../../images/loginChoice_con.png) no-repeat top center;}
+.loginContent{ padding-top:55px;}
+.logtitleH2{ width:778px; height:60px; background:url(../../images/logtitleH2.png) no-repeat;}
+.choiceAn{ width:778px;}
+.choiceAn div{ width:352px;}
+.choiceAn div a{ width:350px; height:72px; line-height:72px;}
+.choiceAn div a:hover{ text-decoration:none;}
+.choiceAn div a.activityHui{ background:url(../../images/activityHui.png) no-repeat;}
+.choiceAn div a.activityLan{ background:url(../../images/activityLanhover.png) no-repeat;}
+.choiceAn div a.activityLan:hover{ background:url(../../images/activityLan.png) no-repeat;}
+
+.loginBou_con_son{ background:url(../../images/loginBg_son.png) no-repeat; width:1200px; height:537px;}
+.activityRed{ background:url(../../images/activityLanred.png) no-repeat;}
+.activityRed:hover{ background:url(../../images/activityLanredhover.png) no-repeat;}
