@@ -1,0 +1,239 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>详情页</title>
+<!--<link type="text/css" href="css/red/unite.css" rel="stylesheet">
+<link type="text/css" href="css/red/header.css" rel="stylesheet">-->
+<link type="text/css" href="css/blue/unite.css" rel="stylesheet">
+<link type="text/css" href="css/blue/header.css" rel="stylesheet">
+<link type="text/css" href="css/blue/footer.css" rel="stylesheet">
+<link type="text/css" href="css/blue/base.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/ccico.ico" type="image/x-icon"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/show.js"></script>
+<script src="js/base.js"></script>
+<script src="js/backbg.js"></script>
+<script src="js/search.js"></script>
+<script src="js/detailXq.js"></script>
+</head>
+<body>
+    <div class="header w100">
+        <div class="headerTop">
+            <ul class="headerTop_ul clearfix w1200 margin_auto color666 font_st">
+                <li><a class="color0066CC" href="#">Hi,ROOT001</a></li>
+                <li>目前积分：<span class="color0066CC">7864</span></li>
+                <li><a href="#">退出</a></li>
+                <li><a href="#">修改密码</a></li>
+                <li><a class="color0066CC" href="#">返回活动选择页</a></li>
+            </ul>
+        </div>
+        <!-- headerTop end -->
+        <div class="headerBou w1200 margin_auto clearfix">
+            <div class="serveDh fl mt25">
+                <img src="images/serveDh.png" width="381" height="71">
+            </div>
+            <div class="searchDiv fr mt40">
+                <form class="searchDiv_form">
+                    <input class="searchDiv_form_L fl bor_none background_Transparent color999 font_fam" type="text" value="输入关键字">
+                    <input class="searchDiv_form_R fr bor_none curaor_pointer background_Transparent" title="搜索" type="submit" value="">
+                </form>
+                <ul class="searchDiv_ul">
+                    <li>热搜关键词：</li>
+                    <li><a href="#">金吉星</a></li>
+                    <li><a href="#">机油</a></li>
+                    <li><a href="#">工作手套</a></li>
+                    <li><a href="#">POLO衫</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- headerBou end -->
+        <div class="headerMenu mt20">
+            <div class="w1200 margin_auto pr">
+                <div class="pingDao pa">
+                    <p class="frequeLfis"><img class="fl ml40 mt10 mr10" src="images/frequeL1.png" width="29" height="21"><a class="colorfff f16 font_fam" href="#">城频道分类</a></p>
+                    <ul class="channelMall pa f16 dis_none">
+                        <li><img src="images/frequeL3.png"><a href="#">家居生活</a><span class="ml10 colorfff">&gt;</span></li>
+                        <li><img src="images/frequeL2.png"><a href="#">汽车养护</a><span class="ml10 colorfff">&gt;</span></li>
+                        <li><img src="images/frequeL4.png"><a href="#">我要服务</a><span class="ml10 colorfff">&gt;</span></li>
+                        <div class="double pa tc">
+                            <img src="images/doubleR.png" width="31" height="38">
+                            <a class="colorfff f16 font_fam fb ml5" href="#">分公司查询登陆</a>
+                        </div>
+                    </ul>
+                </div>
+                <!-- end -->
+                <ul class="headerMenu_ul clearfix f16 font_fam">
+                    <li class="headerMenu_Fis"><a href="#"><img class="fl" src="images/indMenuBg.png">首页</a></li>
+                    <li><a href="#">活动机制</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">质保机制</a></li>
+                    <li><a href="#">服务中心</a></li>
+                    <li><a href="#">订单中心</a></li>                                                                      
+                </ul>
+            </div>     
+        </div>
+        <!-- headerMenu end -->
+    </div>
+    <!-- header end -->
+    
+	<div class="w1200 margin_auto mt15">
+    	<ul class="navCrumbs_ul pl15 f16 font_fam color666 clearfix">
+            <li>您当前的位置：</li>
+            <li><a href="#">首页</a></li>
+            <li>></li>
+            <li>苹果 iPhone 6 移动公开版4G手机</li>
+        </ul>
+        <div class="detailsCon_Top clearfix mt20">
+            <div class="detailsCon_Top_L fl">
+                <div id="preview" class="spec-preview fr"> 
+                    <span class="jqzoom"><img jqimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" /></span> 
+                </div>
+                <div class="spec-scroll clear">
+                    <div class="items">
+                        <ul class="clearfix ml40">
+                        <li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
+                        <li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b2.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s2.jpg" onmousemove="preview(this);"></li>
+                        <li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
+                        <li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b1.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s1.jpg" onmousemove="preview(this);"></li>
+                        <li><img bimg="http://demo.lanrenzhijia.com/2014/jd0912/images/b3.jpg" src="http://demo.lanrenzhijia.com/2014/jd0912/images/s3.jpg" onmousemove="preview(this);"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- detailsCon_Top_L end -->
+            <div class="detailsCon_Top_R fr">
+                <h5 class="f24 font_fam color333 fb">苹果6 Apple/苹果 iPhone 6 移动公开版4G手机</h5>
+                <p class="priceJ font_fam mt20 tc">促销价:<span>9854积分</span></p>
+                <dl class="criticismDl clearfix mt30 f16 font_fam color666">
+                    <dt class="fl mt5 f18">选择类型：</dt>
+                    <dd class="fl ml10">
+                        <ul id="tb-thumbA" class="tb-thumb clearfix">
+                            <li id="xzXg1" onClick="speciColour(1)">
+                                <span>移动移动移动</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                            <li id="xzXg2" onClick="speciColour(2)">
+                                <span>电信</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                            <li id="xzXg3" onClick="speciColour(3)">
+                                <span>联通</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="criticismDl clearfix mt15 f16 font_fam color666">
+                    <dt class="fl mt5 f18">属&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性：</dt>
+                    <dd class="fl ml10">
+                        <ul id="tb-thumbB" class="tb-thumb clearfix">
+                            <li id="xzXg4" onClick="speciColour(4)">
+                                <span>金色</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                            <li id="xzXg5" onClick="speciColour(5)">
+                                <span>灰色</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                            <li id="xzXg6" onClick="speciColour(6)">
+                                <span>银色</span>
+                                <b class="tb-selected-b"></b>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="criticismDl clearfix mt15 f18 font_fam color666">
+                    <dt class="fl mt5">购买数量：</dt>
+                    <dd class="fl ml10">
+                        <form class="cartNumber fl pr mr20">
+                            <input class="bor_none pa curaor_pointer" type="button" id="but_decr1" value="" onClick="return boutton(1,1);" title="加">
+                            <input class="font_fam f16 tc bor_none color888 pa" type="text" value="1" id="digital1" maxlength="3" onChange="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+                            <input class="bor_none pa curaor_pointer" type="button" id="but_incr1" value="" onClick="return boutton(0,1);" title="减">
+                        </form>
+                        <span class="stocKc fl">库存18520件</span>
+                    </dd>
+                </dl>
+                <p id="leiXingP_b" class="leiXingP colorF60 f12 mt20 dis_none">* 请选择类型</p>
+                <p id="leiXingP_c" class="leiXingP colorF60 f12 mt20 dis_none">* 请选择属性</p>
+                <div class="clearfix mt30">
+                    <a class="cartGwc fl curaor_pointer thD" onClick="joinRu()">加入购物车</a>
+                    <a class="orderDg fl curaor_pointer ml25 thD" onClick="joinRu()">立即订购</a>
+                </div>
+            </div>
+            <!-- detailsCon_Top_R end -->
+        </div>
+        <!-- detailsCon_Top end -->
+        <div class="detailsCon_Bot clearfix mt25">
+            <div class="detailsCon_Bot_L fl">
+                <h4 class="reMen_h4 f18 font_fam colorfff tc fb">热门兑换产品</h4>
+                <div class="reMen_div mt15">
+                	<a class="reMen_div_a dis_biock tc" href="#"><img src="images/products3.png" width="246" height="246"></a>
+                    <p class="f16 font_fam mt10"><span class="color0066CC">45.00</span> 积分  <span class="color888 text_li_th">￥79.00</span></p>
+                    <a class="dis_biock f16 font_fam mt5 lineH160" href="#">德铂锅具弗伦斯堡DEP-179</a>
+                </div>
+                <!-- reMen_Sp end -->
+                <div class="reMen_div mt15">
+                	<a class="reMen_div_a dis_biock tc" href="#"><img src="images/products5.png" width="246" height="246"></a>
+                    <p class="f16 font_fam mt10"><span class="color0066CC">12800.00</span> 积分  <span class="color888 text_li_th">￥20000.00</span></p>
+                    <a class="dis_biock f16 font_fam mt5 lineH160" href="#">德铂锅具弗伦斯堡DEP-179德铂锅</a>
+                </div>
+                <!-- reMen_Sp end -->
+                <div class="reMen_div mt15">
+                	<a class="reMen_div_a dis_biock tc" href="#"><img src="images/products4.png" width="246" height="246"></a>
+                    <p class="f16 font_fam mt10"><span class="color0066CC">45.00</span> 积分  <span class="color888 text_li_th">￥79.00</span></p>
+                    <a class="dis_biock f16 font_fam mt5 lineH160" href="#">德铂锅具弗伦斯堡DEP-179德铂锅具弗伦斯堡DEP-179</a>
+                </div>
+                <!-- reMen_Sp end -->
+                <div class="reMen_div mt15">
+                	<a class="reMen_div_a dis_biock tc" href="#"><img src="images/products7.png" width="246" height="246"></a>
+                    <p class="f16 font_fam mt10"><span class="color0066CC">45.00</span> 积分  <span class="color888 text_li_th">￥79.00</span></p>
+                    <a class="dis_biock f16 font_fam mt5 lineH160" href="#">德铂锅具弗伦斯堡DEP-179德铂锅具弗伦斯堡DEP-179</a>
+                </div>
+                <!-- reMen_Sp end -->
+                <div class="reMen_div mt15">
+                	<a class="reMen_div_a dis_biock tc" href="#"><img src="images/goods.png" width="246" height="246"></a>
+                    <p class="f16 font_fam mt10"><span class="color0066CC">45.00</span> 积分  <span class="color888 text_li_th">￥79.00</span></p>
+                    <a class="dis_biock f16 font_fam mt5 lineH160" href="#">德铂锅具弗伦斯堡DEP-179德铂锅具弗伦斯堡DEP-179</a>
+                </div>
+                <!-- reMen_Sp end -->
+            </div>
+            <!-- detailsCon_Bot_L end -->
+            <div class="detailsCon_Bot_R fr">
+                <ul class="goodsThe clearfix f16 font_fam">
+                    <li name="name1">产品介绍</li>
+                    <li name="name2">产品规格</li>
+                </ul>
+                <div class="xxListData name1">
+                    <img src="images/cpXXimg1.jpg">
+                    <img src="images/cpXXimg2.jpg"> 
+                </div>
+                <!-- 产品介绍 end -->
+                 <div class="xxListData name2">
+                    <img src="images/ms_Detailsimg3.jpg"> 
+                </div>
+                <!-- 产品规格 end -->
+            </div>
+            <!-- detailsCon_Bot_R end -->
+		</div>
+		<!-- detailsCon_Bot end -->
+    </div>
+    <!-- 内容结构 end -->
+    
+    <div class="footer w100 clear">
+    	<div class="w1200 margin_auto tc mt30"><img src="images/foorterImg.jpg" width="850" height="135"></div>
+        <div class="footerBou mt30 tc">
+        	<ul class="footerBou_ul clearfix pt35 w1200 margin_auto font_fam">
+            	<li><a href="#">订单帮助</a></li>
+                <li><a href="#">礼品售后</a></li>
+                <li><a href="#">投诉说明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li style="border:0 none;"><a href="#">友情链接</a></li>                                                                                      
+            </ul>
+            <p class="colorfff pt25">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+        </div>
+    </div>
+    <!-- footer end -->    
+</body>
+</html>

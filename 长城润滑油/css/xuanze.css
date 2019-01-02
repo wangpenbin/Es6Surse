@@ -1,0 +1,106 @@
+header {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.my_body {
+	width: 100%;
+	height: 537px;
+	background: url(../images/loginChoice_con.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.my_body h2 {
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding-top: 55px;
+}
+
+.my_body div {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.my_body div dl {
+	float: left;
+}
+
+.my_body div dt {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.my_body div dd {
+	margin-left: 40px;
+	font-size: 26px;
+	line-height: 72px;
+	text-align: center;
+	width: 350px;
+	height: 72px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.my_body div dd a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.my_body div .backred {
+	background: url(../images/activityLanred.png) no-repeat;
+}
+
+.my_body div .backred:hover {
+	background: url(../images/activityLanredhover.png) no-repeat;
+}
+
+.my_body div .backccc {
+	background: url(../images/activityHui.png) no-repeat;
+}
+
+.my_body div .backblue {
+	background: url(../images/activityLanhover.png) no-repeat;
+}
+
+.my_body div .backblue:hover {
+	background: url(../images/activityLan.png) no-repeat;
+}
+
+.dkhkd {
+	margin-top: 50px;
+	clear: both;
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	height: 126px;
+	background: #999;
+	margin-top: 33px;
+}
+
+footer ul {
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 35px;
+}
+
+footer ul li {
+	float: left;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	width: 137px;
+	font-size: 16px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 50px;
+	color: #FFFFFF;
+}

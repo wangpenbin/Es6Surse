@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/red/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<link rel="shortcut icon" href="images/ccico.ico" type="image/x-icon"/>
+
+		<style type="text/css">
+		
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="images/gateLogo.png"/>	
+			<p>欢迎登录</p>
+		</header>
+			<div  class="my_body">
+				<div class="my_div" >
+					<div class="my_div_1">
+						<p class="my_p">长城润滑油会员</p>
+						<form  method="get">
+							<label class="my_label">
+								<input class="my_in" type="text" name="" id="" value="" />
+								<p class="my_p_2"></p>
+							</label>
+							<label class="my_label_1">
+								<!--<img src="images/loginPass.png"/>-->
+								<input class="my_in1" type="text" name="" id="" value="" />
+								<p class="my_p_3"></p>
+							</label>
+								
+							<label class="my_label_2" style="float: left;" for=""><input type="checkbox"/>自动登录</label>
+							<p class="my_p_1" style="float: right;">忘记密码?</p>
+							<img class="my_img" src="images/lossTx.png"/>
+							<input class="my_button" type="button"  value="" />
+						</form>
+						
+					</div>
+				</div>
+		</div>
+		<div class="my_div_2" style="">
+			<img src="images/foorterImg.jpg"/>
+		</div>
+		<footer>
+			<ul class="my_ul">
+				<li><a  herf="javascript:0">订单帮助</a></li>
+				<li><a  herf="javascript:0">礼品售后</a></li>
+				<li><a  herf="javascript:0">投诉说明</a></li>
+				<li><a  herf="javascript:0">法律声明</a></li>
+				<li><a  herf="javascript:0">友情链接</a></li>
+			</ul>
+			<p>版权所有  沪ICP备12038387号</p>
+		</footer>
+		
+		
+		
+	</body>
+</html>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+		$(function(){
+		var xt=/^((\(\d{2,3}\))|(\d{3}\-))?13\d{9}$/;//手机号
+		 var t= /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;//邮箱
+		 var b= /[\u4E00-\u9FA5]/;
+		 
+		var validation = {
+              checkMobile: function(sMobile) {//账户
+                    var mobile_tag = (/^[a-zA-Z][a-zA-Z0-9]{3,15}$/.test(sMobile));
+                   
+                    return mobile_tag;
+              },
+              checkPw: function(pw) {//密码规范
+                    var pw_tag = (/^[a-zA-Z0-9]{6,12}$/.test(pw)); //^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$
+                    return pw_tag;
+              }
+        }
+		$(".my_in,.my_in1").click(function(){
+			 $(this).css("background","#FDF6C8")
+		})
+ $('.my_in').bind('input propertychange blur',function () {
+                  var zValue = $(this).val();
+                if(zValue == ''){
+                    $('.my_p_2').html('账号不能为空');
+                }else if(t.test(zValue) &&  b.test(zValue)){
+                    $('.my_p_2').html('您的账号格式不正确,请您重新输入');
+                }
+                else{
+                    $('.my_p_2').html("");
+                }
+        })
+ $('.my_in1').bind('input propertychange blur',function () {
+            
+                 var zValue = $(this).val();
+                if(zValue == ''){
+                    $('.my_p_3').html('密码不能为空');
+                }else if( validation.checkPw(zValue) == false || zValue.length > 11){
+                    $('.my_p_3').html('密码不能含有非法字符，长度在6-12之间');
+                }
+                else{
+                    $('.my_p_3').html("");
+                }
+        })
+ 
+    
+
+  
+
+	})
+</script>

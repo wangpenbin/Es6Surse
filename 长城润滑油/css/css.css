@@ -1,0 +1,158 @@
+header {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 40px;
+	height: 65px;
+}
+
+header img {
+	float: left;
+}
+
+header p {
+	float: left;
+	margin-left: 63px;
+	font-size: 32px;
+	color: red;
+}
+
+.my_body {
+	width: 100%;
+	height: 537px;
+	background: #a50007;
+}
+
+.my_body .my_div {
+	margin-top: 34px;
+	width: 1200px;
+	margin: 0 auto;
+	height: 537px;
+	background: url(../images/loginBg.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.my_div_1 {
+	width: 322px;
+	height: 390px;
+	background: #FFFFFF;
+	float: right;
+	margin: 50px 51px 0 0;
+	padding-top: 37px;
+	padding-left: 33px;
+}
+
+.my_div_1 .my_p {
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.my_label {
+	width: 286px;
+	height: 40px;
+	display: block;
+	background: url(../images/loginNum.png);
+	margin-top: 40px;
+}
+
+.my_label input {
+	width: 243px;
+	height: 36px;
+	margin-left: 40px;
+	border: 3px;
+	margin-top: 2px;
+	border-bottom: none;
+}
+
+.my_label_1 {
+	width: 286px;
+	height: 40px;
+	display: block;
+	background: url(../images/loginPass.png);
+	margin-top: 20px;
+}
+
+.my_label_1 input {
+	width: 243px;
+	height: 36px;
+	margin-left: 40px;
+	border: 3px;
+	margin-top: 2px;
+	border-bottom: none;
+}
+
+.my_label_2 {
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+.my_label_2 input {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.my_p_1 {
+	margin-top: 30px;
+	font-size: 14px;
+	margin-right: 40px;
+}
+
+.my_img {
+	margin-top: 38px;
+}
+
+.my_button {
+	margin-top: 20px;
+	background: url(../images/loginAniu.png) 0 0;
+	width: 286px;
+	height: 53px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.my_div_2 {
+	margin: 0 auto;
+	width: 650px;
+	margin-top: 30px;
+}
+
+footer {
+	width: 100%;
+	height: 123px;
+	margin-top: 30px;
+	background: #999;
+}
+
+footer .my_ul {
+	width: 687px;
+	margin: 0 auto;
+	display: block;
+}
+
+footer .my_ul li {
+	float: left;
+	font-size: 16px;
+	height: 30px;
+	padding-right: 35px;
+	margin-left: 35px;
+	color: #FFFFFF;
+	margin-top: 34px;
+	border-right: 3px solid #FFFFFF;
+}
+
+footer .my_ul li:last-child {
+	border-right: none;
+}
+
+footer .my_ul li a {
+	color: #FFFFFF;
+}
+
+footer p {
+	padding-top: 25px;
+	clear: both;
+	color: #FFFFFF;
+	text-align: center;
+}
